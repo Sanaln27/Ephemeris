@@ -1,4 +1,4 @@
-from memory.memory_agent import memory_agent
+from fhfh.memory.memory_agent import memory_agent
 from model.config import llm
 
 memory_agent(

@@ -5,8 +5,8 @@ from langchain.agents import create_agent
 from langchain.messages import HumanMessage,AIMessage
 from tools.tools import rag_tool
 from model.config import llm
-from memory.conversation import get_hstry,add_msg
-from memory.memory_agent import memory_agent
+from fhfh.memory.conversation import get_hstry,add_msg
+from fhfh.memory.memory_agent import memory_agent
 
 load_dotenv()
 

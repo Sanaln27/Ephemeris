@@ -1,5 +1,5 @@
-from memory.conversation import get_hstry,add_msg
-from memory.summary import creat_summary
+from fhfh.memory.conversation import get_hstry,add_msg
+from fhfh.memory.summary import creat_summary
 from model.config import llm
 
 msg_lmt=20

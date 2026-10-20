@@ -1,6 +1,6 @@
 from model.config import llm
 from retriver.BM25.lexical import retriver
-from prompts.rag_prompt import rag_prompt
+from fhfh.memory.prompts.rag_prompt import rag_prompt
 
 
 def generate_answer(question: str):

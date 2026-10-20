@@ -1,6 +1,6 @@
 from pathlib import Path
 import json
-from memory.conversation import get_hstry
+from fhfh.memory.conversation import get_hstry
 from langchain_core.messages import SystemMessage, HumanMessage
 from model.config import llm
 
