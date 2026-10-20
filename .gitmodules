@@ -1,0 +1,3 @@
+[submodule "agentic-hybrid-rag"]
+    path = agentic-hybrid-rag
+    url = https://github.com/Sanaln27/agentic-hybrid-rag.git
