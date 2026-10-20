@@ -4,9 +4,14 @@ version = "0.1.0"
 description = "Agentic hybrid RAG project"
 requires-python = ">=3.11"
 dependencies = [
+    "docx2txt>=0.9",
+    "kagglehub>=1.0.2",
     "langchain",
+    "langchain-chroma>=1.1.0",
     "langchain-community",
+    "langchain-openai>=1.6.7",
     "langchain-text-splitters",
+    "pypdf>=6.19.0",
     "rank-bm25",
 ]
 

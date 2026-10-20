@@ -1,26 +1,26 @@
 from langchain.tools import tool
 from retriver.Dense.generator import generate_answer
 from pathlib import Path
-import mysql.connector
+# import mysql.connector
 
 
-@tool(description="Execute a SQL query on the database")
-def mysql_tool(query:str)->str:
-    try:
-        connection = mysql.connector.connect(
-            host="localhost",
-            user="root",
-            password="Sana$More!LikeOcean",
-            database="company"
-        )        
-        cursor=connection.cursor()
-        cursor.execute(query)
-        row=cursor.fetchall()
-        connection.close()
+# @tool(description="Execute a SQL query on the database")
+# def mysql_tool(query:str)->str:
+#     try:
+#         connection = mysql.connector.connect(
+#             host="localhost",
+#             user="root",
+#             password="Sana$More!LikeOcean",
+#             database="company"
+#         )        
+#         cursor=connection.cursor()
+#         cursor.execute(query)
+#         row=cursor.fetchall()
+#         connection.close()
 
-        return str(row)
-    except Exception as e:
-        return f"Error:{e}"
+#         return str(row)
+#     except Exception as e:
+#         return f"Error:{e}"
     
 
 @tool

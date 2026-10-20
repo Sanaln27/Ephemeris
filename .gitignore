@@ -8,6 +8,8 @@ venv/
 
 .vscode/
 
-chroma_db/
+Chroma_db/
 
 data1/
+
+data/
